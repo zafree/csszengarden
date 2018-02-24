@@ -428,11 +428,14 @@ abbr[title] {
 .main .benefits p::before {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   width: 260px;
   height: 218px;
   margin-top: -325px;
   content: "";
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-image: url("b-1.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
@@ -497,12 +500,14 @@ abbr[title] {
 .main .requirements p:nth-child(2)::before {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
   width: 300px;
   height: 227px;
   margin-bottom: 50px;
-  margin-left: -15px;
   content: "";
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-image: url("r-1.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
@@ -513,12 +518,14 @@ abbr[title] {
 .main .requirements p:nth-child(4)::before {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   width: 300px;
   height: 127px;
   margin-top: 55px;
-  margin-left: -20px;
   content: "";
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-image: url("r-2.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
@@ -530,12 +537,14 @@ abbr[title] {
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
+  left: 50%;
   width: 300px;
   height: 162px;
   margin-top: 45px;
-  margin-left: -20px;
   content: "";
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-image: url("r-3.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
@@ -1205,6 +1214,9 @@ footer a::after {
     height: 349px;
     margin-top: -65px;
     content: "";
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
     background-image: url("b-1.png");
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -1295,6 +1307,9 @@ footer a::after {
     margin-bottom: 0;
     margin-left: auto;
     content: "";
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
     background-image: url("r-1.png");
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -1316,6 +1331,9 @@ footer a::after {
     margin-top: 15px;
     margin-left: -30px;
     content: "";
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
     background-image: url("r-2.png");
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -1334,6 +1352,9 @@ footer a::after {
     margin-top: 0;
     margin-left: auto;
     content: "";
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
     background-image: url("r-3.png");
     background-repeat: no-repeat;
     -webkit-background-size: contain;
